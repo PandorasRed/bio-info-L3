@@ -1,0 +1,8 @@
+Data:
+    - substitution matrix
+    - two string to compare
+BetterCell:
+    - a cell wich have an indication which cell come before, and a int to have a val, 
+NWMatrix:
+    - end matrix
+

@@ -1,0 +1,9 @@
+#ifndef MAIN_HPP
+#define MAIN_HPP
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <Data.hpp>
+#include <BetterCell.hpp>
+#include <NWMatrix.hpp>
+#endif //MAIN_HPP

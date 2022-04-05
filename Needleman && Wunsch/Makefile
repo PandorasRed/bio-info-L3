@@ -2,8 +2,8 @@ CPP=g++
 
 INC=include
 CFLAGS= -g -Wall -Wextra -Werror 
-NAME=software
-SRC_FILES = *.cpp
+NAME=main 
+SRC_FILES = BetterCell.cpp Data.cpp  NWMatrix.cpp main.cpp
 SRC_DIR = src
 SRCS = $(addprefix $(SRC_DIR)/, $(SRC_FILES))
 OBJS = $(patsubst %.cpp, %.o, $(SRCS))
