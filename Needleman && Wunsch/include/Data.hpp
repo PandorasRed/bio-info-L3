@@ -14,5 +14,6 @@ class Data{
     Data(std::map<std::pair<char,char>, int> tscore,std::string s1, std::string s2, int penalty); 
     Data();//stupid compilator
     ~Data();
+    
 };
 #endif //DATA_HPP

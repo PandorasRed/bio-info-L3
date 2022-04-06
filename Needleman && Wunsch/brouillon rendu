@@ -1,0 +1,14 @@
+on human one of the disease: A disease characterized by retinal degeneration, ocular colobomas involving both the anterior and posterior segment, impaired night vision and loss of visual acuity. Additional characteristic features include developmental abnormalities and severe acne.
+
+function of the protein :Retinol-binding protein that mediates retinol transport in blood plasma
+
+ligands: Retinol-binding, Vitamin A
+
+
+gapenalty=-8
+
+structure necessaire : ligant retinol
+3 organisme différent
+
+swiss model pour structure avec le ligant
+align nom1 nom2 pour aligner les protein dans pymol

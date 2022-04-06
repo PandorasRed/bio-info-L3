@@ -4,6 +4,8 @@
 #include <fstream>
 #include <string>
 #include <Data.hpp>
-#include <BetterCell.hpp>
 #include <NWMatrix.hpp>
+#include <readFastaFile.hpp>
+#include <readMatrixFile.hpp>
+int main(int argc, char *argv[]);
 #endif //MAIN_HPP

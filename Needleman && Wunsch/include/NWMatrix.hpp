@@ -4,16 +4,18 @@
 #include <fstream>
 #include <string>
 #include <Data.hpp>
-#include <BetterCell.hpp>
 class NWMatrix{
     public:
-    BetterCell* matrix; //the full matrix for the algorithm
+    int* score; //the matrix for the score
+    int* direction; // the matrix to know the direction
     Data data; // the entry
     int ls1; //the length of the string1;
     int ls2; //the lenght of the string2;
     NWMatrix(Data data); 
     ~NWMatrix();
-    BetterCell  processing();
+    void  processing();
+    std::pair<int,int> best(char a,char b, int left,int top,int diagonal);
+
 };
 
 #endif //NWMATRIX_HPP
