@@ -6,8 +6,9 @@
         gappenalty=penalty;
     } 
     Data::Data(){
-        
+
     }
     //the destructor
     Data::~Data(){
     }
+

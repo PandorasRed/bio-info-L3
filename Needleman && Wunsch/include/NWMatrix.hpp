@@ -15,6 +15,9 @@ class NWMatrix{
     ~NWMatrix();
     void  processing();
     std::pair<int,int> best(char a,char b, int left,int top,int diagonal);
+    std::pair<std::string, std::string> alignment();
+    private:
+    std::pair<std::string,std::string> recalignment(std::pair<std::string,std::string> a, int i);
 
 };
 

@@ -5,6 +5,7 @@
 #include <string>
 #include <map>
 #include <vector>
-void makeMap(std::ifstream& fs);
+#include <cstring>  
+std::map<std::pair<char,char>, int> makeMap(std::ifstream& fs);
 
 #endif //READMATRIXFILEHPP
